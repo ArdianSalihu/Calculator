@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+}
+
+.calculator {
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.885);
+    padding: 10px;
+    height: 500px;
+    width: 270px;
+}
+
+.display-box {
+    height: 100px;
+    width: 97%;
+    margin-bottom: 20px;
+    border-radius: 0px;
+    border: 0;
+    background-color: rgb(45, 44, 44);
+    height: 110px;
+}
+
+input[type=button] {
+    border-radius: 50px;
+    font-size: 22px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(45, 44, 44);
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+}
+
+input:hover {
+    background-color: rgb(212, 209, 209);
+}
+
+.calculator .c-button {
+    background-color: rgb(129, 129, 129);
+    border: 0px;
+}
+
+.calculator .c-button:hover {
+    color: rgb(129, 129, 129);
+    background-color: white;
+}
+
+.calculator .e-symbol {
+    background-color: rgb(64, 109, 242);
+    border: 0px;
+}
+
+.calculator .e-symbol:hover {
+    background-color: rgb(20, 46, 126);
+}
+
+.calculator .symbols {
+    background-color: rgb(38, 74, 184);
+    border: 0px;
+}
+
+.calculator .symbols:hover {
+    background-color: rgb(60, 109, 254);
+}
+
+input:active[type=button] {
+    background: rgb(173, 187, 54);
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+.calculator .symbols:active {
+    background: rgb(54, 187, 185);
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+.calculator .e-symbol:active {
+    background: rgb(54, 187, 185);
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+.calculator .c-button:active {
+    background: rgb(54, 187, 185);
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+    color: white;
+}
