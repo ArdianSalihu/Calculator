@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    background-image: linear-gradient(to right, rgb(0, 238, 255), rgb(0, 255, 72), rgb(38, 139, 197));
 }
 
 .calculator {
@@ -20,7 +21,7 @@ body {
     height: 110px;
     text-align: right;
     color: white;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 input[type=button] {
@@ -88,6 +89,25 @@ input:active[type=button] {
 }
 
 .calculator .c-button:active {
+    background: rgb(54, 187, 185);
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+    color: white;
+}
+
+.calculator .d-button {
+    background-color: rgb(129, 129, 129);
+    border: 0px;
+    font-size: 20px;
+}
+
+.calculator .d-button:hover {
+    color: rgb(129, 129, 129);
+    background-color: white;
+}
+
+.calculator .d-button:active {
     background: rgb(54, 187, 185);
     -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;

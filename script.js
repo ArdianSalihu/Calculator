@@ -11,3 +11,8 @@ function calculate() {
     let q = eval(p);
     document.getElementById("result").value = q;  
 }
+
+function del() {
+    let input = document.getElementById("result");
+    input.value = input.value.substring(0, input.value.length -1);
+}
