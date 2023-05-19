@@ -7,4 +7,13 @@
 <h1>Installation</h1>
 <p>You need to have git installed in your local mashine to use this type of installation.</p>
 
-<p>Clone the repository by: git clone </p>
+<p>Clone the repository by: git clone https://github.com/klein528/Calculator.git</p>
+
+<h1>Usage</h1>
+<p> This project works exactly like a normal simple calculator, so it has no special usage.</p>
+
+<p> I made this project purely for my learning purpose.</p>
+
+
+<h1>Contribution</h1>
+<p>This repository is open to contribute. Please be free to copy my code or share any kind of new ideas for my project.</p>
